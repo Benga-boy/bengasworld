@@ -155,7 +155,7 @@ input[type=submit]:active {
 /*---------------------------------- */
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../css/assets/laptops.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./assets/laptops.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -307,7 +307,7 @@ text-align: center;
 /* SKILL
 /*---------------------------------- */
 #skills {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../css/assets/bulb.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./assets/bulb.png');
   background-size: cover;
   background-position: center;
   height: 110vh;
