@@ -310,7 +310,7 @@ text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./assets/bulb.png');
   background-size: cover;
   background-position: center;
-  height: 110vh;
+  height: 115vh;
   color: #fff;
   background-attachment: fixed;
 }
