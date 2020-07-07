@@ -1,0 +1,176 @@
+
+
+
+/* from big tablets to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+
+  #skills {
+    height: 110vh;
+  }
+}
+
+
+/* small tablets to big tablets 768 - 1023px */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  .boxes {
+    width: 66.13%;
+  }
+
+  .job-description {
+    width: 45%;
+    margin-left: 33%;
+    text-align: left;
+    line-height: 145%;
+  }
+
+  .box img {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 16px;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  textarea {
+    height: 160px;
+  }
+  
+  .job-description {
+    width: 45%;
+    margin-left: 33%;
+    text-align: left;
+    line-height: 145%;
+  }
+  
+  .course {
+    margin-bottom: 16px;
+    margin-top: 12px;
+  }
+
+  .experience {
+    width: 100%;
+  }
+
+  #skills {
+    height: 120vh;
+  }
+}
+
+
+
+/* small phones to small tablets 481 - 767px */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .main-nav {
+    float: left;
+    margin-top: 35px;
+    margin-left: 25px;
+  }
+
+  .main-nav li {
+    display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    font-size: 100%;
+    padding: 10px 0;
+  }
+
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+
+  h2 {
+    font-size: 150%;
+  }
+
+  .box img {
+    height: 300px;
+    width: 90%;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.97);
+    color: #706c61;
+    box-shadow: 0 4px 4px #272343;
+    z-index: 9999;
+  }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0;
+  }
+
+  .sticky .main-nav {
+    margin-top: 10px;
+  }
+
+  .sticky .mobile-nav-icon ion-icon {
+    color: #ff847c;
+    font-size: 150%;
+  }
+
+  #skills {
+    height: 220vh;
+  }
+
+}
+
+
+
+
+/* small phones 0 - 480px */
+@media only screen and (max-width: 480px) {
+  section {padding: 25px 0;}
+  .contact-form{width: 100%;}
+  #skills {
+    height: 150vh;
+  }
+}
