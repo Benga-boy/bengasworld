@@ -231,6 +231,7 @@
     <div class="row" id="form">
       <form action="mailer.php" class="contact-form">
         <div class="row">
+
           <?php
           <div class="form-messages success">
             Thanks! Message sent.

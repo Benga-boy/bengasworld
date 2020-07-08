@@ -231,14 +231,21 @@
     <div class="row" id="form">
       <form action="mailer.php" class="contact-form">
         <div class="row">
-          <?php
-          <div class="form-messages success">
-            Thanks! Message sent.
-          </div>
 
-          <!-- <div class="form-messages error">
+          <?php 
+          
+          if($_GET['success'] == 1) {
+            echo "<div class=\"form-messages success\">
+            Thanks! Message sent.
+          </div>";
+          }
+
+          if($_GET['success'] == -1) {
+            echo "<div class=\"form-messages error\">
             Failed to send! Please try again.
-          </div> -->
+          </div> ";
+          }
+
           ?>
         </div>
         <div class="row">
