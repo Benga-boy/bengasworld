@@ -65,3 +65,28 @@ $(document).ready(function() {
   })
 
 })
+
+//  ! Send Email Function
+const bengaEmail = 'benga.olasebikan@gmail.com'
+
+
+
+// function sendEmail() {
+//   const senderEmail = document.getElementById('email').value
+//   const message = document.getElementById('message').value
+//   const subject = document.getElementById('subject').value
+//   console.log('Sender Subject:', subject)
+//   console.log('Email add:', senderEmail)
+//   console.log('Email message:', message)
+//   Email.send({
+//     Host: 'smtp.elastic.com',
+//     Username: 'geelash90@gmail.com',
+//     Password: 'F2F0071994F8911D8B32D9C5B97624383133',
+//     To: bengaEmail,
+//     From: senderEmail,
+//     Subject: subject,
+//     Body: message
+//   }).then(
+//     message => alert(message)
+//   )
+// }

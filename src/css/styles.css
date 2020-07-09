@@ -406,6 +406,18 @@ textarea {
   background-color: rgba(209, 46, 46, 0.8);
 }
 
+.email-add h3 {
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 12px;
+  text-transform: lowercase;
+}
+
+.mail {
+  font-size: 220%;
+  color: #555;
+}
+
 /*---------------------------------- */
 /* FOOTER
 /*---------------------------------- */
@@ -423,14 +435,27 @@ footer {
   float: right;
 }
 
+.contact-links {
+  margin-left: 42%;
+}
+
 .footer-nav li,
 .social-links li {
   display: inline-block;
   margin-right: 18px;
 }
 
+.contact-links li {
+  display: inline-block;
+  margin-right: 18px;
+}
+
 .footer-nav li :last-child,
 .social-links li :last-child {
+  margin-right: 0;
+}
+
+.contact-links li :last-child {
   margin-right: 0;
 }
 
@@ -441,6 +466,13 @@ footer {
   border: 0;
   color: #e7dfd5;
   font-size: 110%;
+}
+
+.contact-links li a:link,
+.contact-links li a:visited {
+  border: 0;
+  color: #555;
+  font-size: 220%;
 }
 
 .footer-nav li a:hover,

@@ -228,14 +228,14 @@
   <section id="contact">
     <h2>I will be happy to hear from you</h2>
     <p class="profession"></p>
-    <div class="row" id="form">
-      <form action="mailer.php" class="contact-form">
+    <!-- <div class="row" id="form">
+      <form action="POST" class="contact-form">
         <div class="row">
           <div class="col span-1-of-3">
-            <label for="name">Name</label>
+            <label for="subject">Subject</label>
           </div>
           <div class="col span-2-of-3">
-            <input type="text" placeholder="Your Name" name="name" id="name" required>
+            <input type="text" placeholder="Subject" name="subject" id="subject" required>
           </div>
         </div>
         <div class="row">
@@ -259,10 +259,25 @@
             <label for="name">&nbsp;</label>
           </div>
           <div class="col span-2-of-3">
-            <input type="submit" value="Send">
+            <input type="submit" value="Send" onclick="sendEmail()">
           </div>
         </div>
       </form>
+    </div> -->
+    <div class="row">
+      <div class="col span-2-of-2">
+        <ul class="contact-links">
+          <li><a href="https://github.com/Benga-boy" target="_blank">
+              <ion-icon class="github" name="logo-github"></ion-icon>
+            </a></li>
+          <li><a href="https://www.linkedin.com/in/benga-olasebikan/" target="_blank">
+              <ion-icon class="linkedin" name="logo-linkedin"></ion-icon>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row email-add">
+      <h3>benga.olasebikan@gmail.com</h3>
     </div>
   </section>
 
@@ -287,7 +302,7 @@
     </div>
     <div class="row">
       <p>
-        Benga Olasebikan&copy;. Built with HTML, CSS, JavaScript, JQuery and PHP
+        Benga Olasebikan&copy;. Built with HTML, CSS, JavaScript and JQuery
       </p>
     </div>
   </footer>
@@ -297,6 +312,8 @@
   <script src="cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="./vendors/js/jquery.waypoints.min.js"></script>
   <script src="./src/js/script.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
 </body>
 
 </html>
