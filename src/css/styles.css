@@ -273,6 +273,10 @@ ul li a:visited {
 text-align: center;
 }
 
+.experiences {
+  margin-top: 12px;
+  }
+
 .rule::after {
   display: block;
   height: 3px;
